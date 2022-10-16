@@ -1,6 +1,6 @@
-# res_design
+# Responsive Design 
 
-A new Flutter project.
+[RESPONSIVE DESIGN • Flutter Tutorial](https://www.youtube.com/watch?v=MrPJBAOzKTQ) by [Mitch Koko](https://www.youtube.com/c/MitchKoko)
 
 ## Getting Started
 

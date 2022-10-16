@@ -13,11 +13,12 @@ class ResDesignApp extends StatelessWidget {
       title: 'Responsive Design',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
         textTheme: TextTheme(
           bodyText2: TextStyle(fontSize: 30),
         ),
       ),
-      home: MediaQueryWidget(),
+      home: HomeScreen(),
     );
   }
 }
