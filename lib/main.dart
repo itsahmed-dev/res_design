@@ -9,10 +9,15 @@ class ResDesignApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Responsive Design',
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      theme: ThemeData(
+        textTheme: TextTheme(
+          bodyText2: TextStyle(fontSize: 30),
+        ),
+      ),
+      home: MediaQueryWidget(),
     );
   }
 }
