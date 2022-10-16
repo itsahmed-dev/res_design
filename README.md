@@ -1,4 +1,4 @@
-# starter
+# res_design
 
 A new Flutter project.
 

@@ -1,24 +1,18 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const StarterApp());
+import 'package:res_design/components.dart';
 
-class StarterApp extends StatelessWidget {
-  const StarterApp({super.key});
+void main() => runApp(const ResDesignApp());
+
+class ResDesignApp extends StatelessWidget {
+  const ResDesignApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Starter App',
+      title: 'Responsive Design',
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold();
   }
 }
